@@ -30,6 +30,7 @@ public class Email {
     // combine elements to generate email
     email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companyName;
     System.out.println("Your email is: " + email);
+    System.out.println("***********************************");
   }
   // Ask for department
   private String setDepartment() {
@@ -74,8 +75,7 @@ public class Email {
   public void changePassword(String password) {
     this.password = password;
   }
-
-  public int getMailBoxCapacity() { return mailboxCapacity; }
-  public String getAlternateEmail() { return alternateEmail; }
-  public String getPassword() { return password; }
+    public int getMailBoxCapacity() { return mailboxCapacity; }
+    public String getAlternateEmail() { return alternateEmail; }
+    public String getPassword() { return password; }
 }
